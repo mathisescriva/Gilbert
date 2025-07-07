@@ -1,0 +1,20 @@
+fastapi==0.95.1
+uvicorn==0.22.0
+pydantic>=1.10.17,<2.0.0
+SQLAlchemy==2.0.12
+python-multipart==0.0.6
+python-jose==3.3.0
+passlib==1.7.4
+python-dotenv==1.0.0
+requests==2.30.0
+bcrypt==4.0.1
+aiofiles==23.1.0
+loguru==0.7.0
+# AssemblyAI SDK - SDK officiel pour l'API AssemblyAI
+assemblyai==0.37.0
+# Pour le du00e9ploiement sur Render
+gunicorn==21.2.0
+# Pour la validation des emails dans Pydantic
+email-validator==2.1.1
+# Pour la gestion des retries avec backoff exponentiel
+backoff==2.2.1
